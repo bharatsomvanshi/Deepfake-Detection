@@ -1,0 +1,92 @@
+/* ----------------------------------------- */
+/* BASIC SETUP */
+/* ----------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    background-color: #dfdfdf;
+    color: #ffffff;
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+    font-size: 20px;
+    font-weight: 50;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+#result{
+    font-size: 1.5rem;
+    font-weight: 500;
+
+    margin-top: 1rem;
+    color: #ffffff;
+}
+
+/* ----------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ----------------------------------------- */
+
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.box {
+    padding: 1%;
+}
+
+
+/* ----------------------------------------- */
+/* ANIMATIONS */
+/* ----------------------------------------- */
+.js--wp-1 {
+    opacity: 0;
+}
+
+.js--wp-1.animated {
+    opacity: 1;
+}
+
+header {
+    /* background-image: url(img/white-snow_background.jpg); */
+    background-image: url(../css/img/white-snow_background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+   
+}
+
+.hero-text-box {
+    backdrop-filter: blur(6px);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+

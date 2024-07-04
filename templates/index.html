@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" type="text/css" href="../static/vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../static/vendors/css/Grid.css">
+    <link rel="stylesheet" type="text/css" href="../static/vendors/css/ionicons.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="../static/resources/css/style.css"> -->
+    <link rel="icon" type="image/png" sizes="32x32" href="../static/resources/icons/pngtree.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../static/resources/icons/pngtree.png">
+    <link rel="shortcut icon" href="../static/resources/css/img/logo.png">
+    <link rel="stylesheet" type="text/css" href="../static/resources/css/queries.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap"
+        rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../static/resources/css/style.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../static/resources/css/upload.css">
+    <link rel="stylesheet" href="../static/resources/css/nav.css">
+    <link rel="stylesheet" href="../static/resources/css/feature.css">
+    <link rel="stylesheet" href="../static/resources/css/works.css">
+    <title>DEEP FAKE</title>
+
+    <script src="../static/resources/js/onLoadLogin.js"></script>
+    <script src="../static/resources/js/upload.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <nav data-aos="fade-right" data-aos-easing="linear">
+            <img src="../static/resources/css/img/logo.png" alt="Gray Image" class="logo" width="75px" height="75px">
+            <ul class="main-nav js--main-nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">About</a></li>
+                <li><a href="#works">Team</a></li>
+            </ul>
+        </nav>
+
+
+        <div class="hero-text-box" id="home">
+            <h1>DEEP FAKE DETECTION</h1>
+
+            <div class="dropFile"  data-aos="zoom-in" data-aos-easing="linear" data-aos-delay="300">
+
+                <input type="file" name="image" id="imageUpload">
+                <button type="submit" class="uploadBtn">Upload</button>
+
+            </div>
+            <button id="detectBtn" class="detect" data-aos="fade-left" data-aos-easing="linear" data-aos-delay="300">
+                <span>Detect</span>
+            </button>
+            <div id="result">Upload File & Click Detect</div>
+
+        </div>
+
+    </header>
+    <section id="features" class="features">
+        <div class="title" data-aos="fade-right" data-aos-delay="300">What is Deep Fake ?</div>
+        <div class="content">
+            <div class="text" data-aos="fade-up" data-aos-delay="300">
+                A deepfake is a type of synthetic media created using artificial intelligence, specifically deep
+                learning techniques like Generative Adversarial Networks (GANs). Deepfakes are manipulated videos,
+                images, or audio that convincingly depict people doing or saying things they never did. They can be used
+                for entertainment, education, or satire, but they also pose risks such as misinformation, identity
+                theft, and reputational damage. Deepfakes have raised concerns about their potential to spread false
+                information, influence public opinion, or commit fraud. Efforts to detect deepfakes and address their
+                misuse are underway, emphasizing the need for robust media literacy and legal frameworks.
+            </div>
+            <img src="../static/resources/css/img/OIG1.png" alt=""  data-aos="fade-left" data-aos-delay="300">
+        </div>
+    </section>
+    <section id="works" class="works">
+        <div class="title" data-aos="fade-right" data-aos-delay="300">Meet the Team..</div>
+
+        <div class="members">
+
+            <div class="member">
+                <img src="../static/resources/css/img/prajagar.jpg" alt="" class="memberImg">
+                <p class="name">D Prajagar</p>
+                <p class="designation">Team Lead/Backend</p>
+            </div>
+
+            <div class="member">
+                <img src="../static/resources/css/img/bharat.jpg" alt="" class="memberImg">
+                <p class="name">Bharat Somvanshi</p>
+                <p class="designation">Web Developer</p>
+            </div>
+
+            <div class="member">
+                <img src="../static/resources/css/img/adhil.jpg" alt="" class="memberImg">
+                <p class="name">Adhil KP</p>
+                <p class="designation">Data Analyst</p>
+            </div>
+
+            <div class="member">
+                <img src="../static/resources/css/img/hrithu.jpg" alt="" class="memberImg">
+                <p class="name">Hrithu Vinayak</p>
+                <p class="designation">Backend Developer</p>
+            </div>
+
+            <div class="member">
+                <img src="../static/resources/css/img/karthik.jpg" alt="" class="memberImg">
+                <p class="name">Karthik Manoj Nair</p>
+                <p class="designation">Backend Developer</p>
+            </div>
+
+            <div class="member">
+                <img src="../static/resources/css/img/sandra.jpg" alt="" class="memberImg">
+                <p class="name">Sandra Moncy</p>
+                <p class="designation">Web Developer</p>
+            </div>
+
+            <div class="member">
+                <img src="../static/resources/css/img/ghalibh.jpg" alt="" class="memberImg">
+                <p class="name">Ahmed Ghalib</p>
+                <p class="designation">Web Developer</p>
+            </div>
+
+        </div>
+    </section>
+    <!-- <footer>
+            <div class="row1">
+                <p>
+                    Copyright &copy; 2024. All rights reserved.
+                </p>
+            </div>
+        </footer> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script> AOS.init();</script>
+</body>
+
+</html>
